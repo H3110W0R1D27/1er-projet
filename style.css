@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f3dada;
+}
+
+header {
+    background: white;
+    height: 75px;
+    text-align: center;
+}
+
+header img {
+    height: 100%;
+}
+
+.interieur {
+    height: 300px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.interieur:hover {
+    height: 400px;
+}
+
+.entremets {
+    height: 300px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.entremets:hover {
+    height: 400px;
+}
