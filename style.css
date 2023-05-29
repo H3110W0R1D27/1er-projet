@@ -5,6 +5,7 @@
 
 body {
     background: #f3dada;
+    min-height: 200vh;
 }
 
 header {
@@ -13,8 +14,22 @@ header {
     text-align: center;
 }
 
+.btnMenu {
+    position: absolute;
+    height: 50px;
+    width: 75px;
+    top: 12.5px;
+    right: 50px;
+    border: black 2px solid;
+}
+
 header img {
     height: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
 }
 
 .interieur {
@@ -35,4 +50,20 @@ header img {
 
 .entremets:hover {
     height: 400px;
+}
+
+.barreLaterrale {
+    position: absolute;
+    background: #bc2626;
+    border: black 1px solid;
+    left: -300px;
+    top: 1px;
+    width: 200px;
+    height: 200vh;
+    transition: 0.5s;
+}
+
+.barreLaterraleOpen {
+    position: absolute;
+    left: 1px;
 }
